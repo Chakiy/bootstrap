@@ -11,9 +11,12 @@
     "build": "npm-run-all --serial clean sass-prod deploy",
     "clean": "rm -r ./dist/",
     "sass-prod": "sass ./src/css/styles.scss ./dist/style.css --no-source-map --style=compressed",
-    "deploy": "surge . --domain https://XXXXXXXXXXXXX.surge.sh"
+    "deploy": "surge . --domain https://app-your-bootstrap.surge.sh"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
 }
