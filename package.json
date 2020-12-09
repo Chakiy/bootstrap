@@ -11,7 +11,7 @@
     "build": "npm-run-all --serial clean sass-prod deploy",
     "clean": "rm -r ./dist/",
     "sass-prod": "sass ./src/css/styles.scss ./dist/style.css --no-source-map --style=compressed",
-    "deploy": "surge . --domain https://app-your-bootstrap.surge.sh"
+    "deploy": "surge . --domain https://bootstrap-on-fier.surge.sh"
   },
   "keywords": [],
   "author": "",
