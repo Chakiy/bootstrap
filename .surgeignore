@@ -2,3 +2,4 @@ src/
 --assets/
 package.json
 readme.md
+node_modules/
